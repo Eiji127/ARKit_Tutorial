@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		9877EC74253B6E1D00A9A29B /* BasicsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9877EC73253B6E1D00A9A29B /* BasicsViewController.swift */; };
+		9877EC78253C206900A9A29B /* Doodle.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9877EC77253C206900A9A29B /* Doodle.storyboard */; };
+		9877EC7B253C208800A9A29B /* DoodleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9877EC7A253C208800A9A29B /* DoodleViewController.swift */; };
 		98CE5BF0253B698800B25FC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98CE5BEF253B698800B25FC9 /* AppDelegate.swift */; };
 		98CE5BF2253B698800B25FC9 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 98CE5BF1253B698800B25FC9 /* art.scnassets */; };
 		98CE5BF4253B698800B25FC9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98CE5BF3253B698800B25FC9 /* ViewController.swift */; };
@@ -19,6 +21,8 @@
 
 /* Begin PBXFileReference section */
 		9877EC73253B6E1D00A9A29B /* BasicsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicsViewController.swift; sourceTree = "<group>"; };
+		9877EC77253C206900A9A29B /* Doodle.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Doodle.storyboard; sourceTree = "<group>"; };
+		9877EC7A253C208800A9A29B /* DoodleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoodleViewController.swift; sourceTree = "<group>"; };
 		98CE5BEC253B698800B25FC9 /* ARKit_Tutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARKit_Tutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98CE5BEF253B698800B25FC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		98CE5BF1253B698800B25FC9 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
@@ -97,6 +101,8 @@
 		98CE5C06253B6C7400B25FC9 /* Doodle */ = {
 			isa = PBXGroup;
 			children = (
+				9877EC77253C206900A9A29B /* Doodle.storyboard */,
+				9877EC7A253C208800A9A29B /* DoodleViewController.swift */,
 			);
 			path = Doodle;
 			sourceTree = "<group>";
@@ -203,6 +209,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				98CE5C0E253B6D2700B25FC9 /* Basics.storyboard in Resources */,
+				9877EC78253C206900A9A29B /* Doodle.storyboard in Resources */,
 				98CE5BF2253B698800B25FC9 /* art.scnassets in Resources */,
 				98CE5BFC253B698B00B25FC9 /* LaunchScreen.storyboard in Resources */,
 				98CE5BF9253B698B00B25FC9 /* Assets.xcassets in Resources */,
@@ -220,6 +227,7 @@
 				9877EC74253B6E1D00A9A29B /* BasicsViewController.swift in Sources */,
 				98CE5BF4253B698800B25FC9 /* ViewController.swift in Sources */,
 				98CE5BF0253B698800B25FC9 /* AppDelegate.swift in Sources */,
+				9877EC7B253C208800A9A29B /* DoodleViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
